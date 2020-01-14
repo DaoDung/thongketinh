@@ -2,10 +2,10 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  // configureWebpack: {
-  //   output: {
-  //     filename: './[name].js',
-  //     chunkFilename: './[name].js'
-  //   }
-  // }
+  configureWebpack: {
+    output: {
+      filename: './[name].js',
+      chunkFilename: './[name].js'
+    }
+  }
 }
